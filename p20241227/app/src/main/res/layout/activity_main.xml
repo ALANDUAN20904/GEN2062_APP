@@ -10,27 +10,30 @@
 
 
 
+<!--internet access-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#000000">-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#000000">
+<!--        <WebView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/wv1">-->
 
-        <WebView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/wv1">
+<!--        </WebView>-->
 
-        </WebView>
-
-    </LinearLayout>
-
-
+<!--    </LinearLayout>-->
 
 
 
 
-    <!--    <LinearLayout-->
+
+
+
+<!--        add image in android through drawabe and ImageView-->
+<!--    ///////////////////////////////////////////////////////////////-->
+<!--        <LinearLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
 <!--        android:orientation="vertical"-->
@@ -51,11 +54,13 @@
 <!--        <ImageView-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
-<!--            android:src=-->
-<!--        insert pic from drawable-->
+<!--            android:src="@drawable/bg">-->
+<!--        </ImageView>-->
+
 <!--    </LinearLayout>-->
 
-
+<!--    Frame Layout-->
+<!--    ///////////////////////////////////////////////////////-->
 
 <!--    <FrameLayout-->
 <!--        android:layout_width="match_parent"-->
@@ -75,26 +80,39 @@
 <!--            android:layout_height="wrap_content"-->
 <!--            android:text="2"-->
 <!--            android:rotation="50"-->
-<!--        </Button>-->
-<!--    </FrameLayout>-->
+<!--    </Button>-->
+<!--</FrameLayout>-->
 
 
+
+<!--    Grid Layout-->
+<!--    //////////////////////////////////////////////////////////-->
 
 <!--    <GridLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
-<!--        android:columnCount="5"-->
-<!--        android:orientation="horizontal">-->
-
+<!--        android:rowCount="3"-->
+<!--        android:columnCount="4">-->
+<!--        -->
 <!--        <Button/>-->
 <!--        <Button/>-->
 <!--        <Button/>-->
 <!--        <Button/>-->
-
-
-
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        -->
+<!--        -->
 <!--    </GridLayout>-->
 
+<!--    Table Layout-->
+<!--    ///////////////////////////////////////////////////////////////-->
 
 <!--    <TableLayout-->
 <!--        android:layout_width="match_parent"-->
@@ -144,6 +162,10 @@
 <!--        </TableRow>-->
 <!--        -->
 <!--    </TableLayout>-->
+
+
+
+
 
 
 
@@ -427,14 +449,13 @@
 
 <!--            </TextView>-->
 <!--        </LinearLayout>-->
+    <!--</LinearLayout>-->
+    
 
 
 
 
 
 
-
-
-<!--</LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
