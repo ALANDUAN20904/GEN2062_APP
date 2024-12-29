@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wv1">
+
+        </WebView>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="123"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="456"-->
+<!--            android:gravity="center"-->
+<!--            android:background="#456317"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src=-->
+<!--        insert pic from drawable-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#000000">-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            android:translationX="100dp"-->
+<!--            android:translationY="200dp">-->
+<!--        </Button>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="2"-->
+<!--            android:rotation="50"-->
+<!--        </Button>-->
+<!--    </FrameLayout>-->
+
+
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:columnCount="5"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+<!--        <Button/>-->
+
+
+
+<!--    </GridLayout>-->
+
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center">-->
+
+<!--        <TableRow-->
+<!--            android:gravity="center">-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:text="1"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="50dp"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:text="2"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="50dp"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:background="#FF9800"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:text="3"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="50dp"-->
+<!--                android:background="#FF9800"/>-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:gravity="center">-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:text="space"-->
+<!--                android:textSize="50dp"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_span="3"/>-->
+<!--            -->
+<!--        </TableRow>-->
+<!--        -->
+<!--    </TableLayout>-->
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#1"-->
+<!--        android:id="@+id/relative1"-->
+<!--        android:gravity="center">-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="1"-->
+<!--            android:gravity="center"-->
+<!--            android:id="@+id/box1"-->
+<!--            android:layout_margin="5dp"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="2"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_toRightOf="@+id/box1"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:id="@+id/box2"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="3"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_toRightOf="@+id/box2"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:id="@+id/box3"/>-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#1"-->
+<!--        android:layout_below="@+id/relative1"-->
+<!--        android:id="@+id/relative2"-->
+<!--        android:gravity="center">-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="4"-->
+<!--            android:gravity="center"-->
+<!--            android:id="@+id/box4"-->
+<!--            android:layout_margin="5dp"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="5"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_toRightOf="@+id/box4"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:id="@+id/box5"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:background="#FF9800"-->
+<!--            android:textSize="50dp"-->
+<!--            android:text="6"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_toRightOf="@+id/box5"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:id="@+id/box6"/>-->
+<!--    </RelativeLayout>-->
+
+
+
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity = "center"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:text="0"-->
+<!--            android:textSize="50dp"-->
+<!--            android:gravity="right"-->
+<!--            android:background="#D8D5D5"-->
+<!--            android:textColor="#111111">-->
+<!--        </TextView>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="1"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="2"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="3"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="4"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="5"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="6"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="7"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="8"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="9"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="+"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="0"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="80dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:background="#FF9800"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:textSize="50dp"-->
+<!--                android:text="="-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="#111111">-->
+
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+
+
+<!--</LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
