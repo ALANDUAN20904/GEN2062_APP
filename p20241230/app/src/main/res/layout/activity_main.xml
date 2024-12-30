@@ -7,20 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lI1"
-        android:background="#111111"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:id="@+id/gl1"
+        android:columnCount="30"
+        >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#9C2780"
-            >
-        </LinearLayout>
+    </GridLayout>
 
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
