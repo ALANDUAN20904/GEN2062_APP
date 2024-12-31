@@ -10,15 +10,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lI1"
-        android:background="#111111"
-        android:orientation="vertical">
+        android:id="@+id/lI1">
+
+       <LinearLayout
+           android:layout_width="200px"
+           android:layout_height="200px"
+           android:background="#FF0000"
+           android:id="@+id/small1">
+       </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#9C2780"
-            >
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="#03A9F4"
+            android:id="@+id/small2">
         </LinearLayout>
 
     </LinearLayout>
