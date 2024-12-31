@@ -2,10 +2,12 @@ package com.example.p20241227;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -22,64 +24,56 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView box1 = (TextView) findViewById(R.id.box1);
-        TextView box2 = (TextView) findViewById(R.id.box2);
-        TextView box3 = (TextView) findViewById(R.id.box3);
-        TextView box4 = (TextView) findViewById(R.id.box4);
-        TextView box5 = (TextView) findViewById(R.id.box5);
-        TextView box6 = (TextView) findViewById(R.id.box6);
-        TextView box7 = (TextView) findViewById(R.id.box7);
-        TextView box8 = (TextView) findViewById(R.id.box8);
-        TextView box9 = (TextView) findViewById(R.id.box9);
-        TextView boxplus = (TextView) findViewById(R.id.boxplus);
-        TextView box0 = (TextView) findViewById(R.id.box0);
-        TextView boxequal = (TextView) findViewById(R.id.boxequal);
+        // TextView
+        LinearLayout.LayoutParams size = new LinearLayout.LayoutParams(
+                200,200
+        );
+
+        TextView[] tv = new TextView[10];
+        LinearLayout tlinear = (LinearLayout) findViewById(R.id.lI1);
+        buttonclick btc = new buttonclick();
 
 
-        touchbox tb = new touchbox(); // create a new object to be used that inherits touchbox class with the onTouchListener method
-        box1.setOnTouchListener(tb);
-        box2.setOnTouchListener(tb);
-        box3.setOnTouchListener(tb);
-        box4.setOnTouchListener(tb);
-        box5.setOnTouchListener(tb);
-        box6.setOnTouchListener(tb);
-        box7.setOnTouchListener(tb);
-        box8.setOnTouchListener(tb);
-        box9.setOnTouchListener(tb);
-        boxplus.setOnTouchListener(tb);
-        box0.setOnTouchListener(tb);
-        boxequal.setOnTouchListener(tb);
+
+        for(int i = 0;i<3;i++) {
+            tv[i] = new TextView(this);// create object
+            tv[i].setTextSize(50f);
+            tv[i].setText(i+"");
+            tv[i].setId((int) (i+1));
+            tv[i].setTextColor(Color.BLACK);
+            tv[i].setBackgroundColor(Color.parseColor("#FF9800"));
+            tv[i].setGravity(Gravity.CENTER);
+            tv[i].setLayoutParams(size);
+            tv[i].setOnClickListener(btc);
+        }
+
+        LinearLayout [] row = new LinearLayout[4];
+        LinearLayout.LayoutParams rowsize = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT
+        );
+        row.setLayoutParams(rowsize);
+        row.setGravity(Gravity.CENTER);
+        row.addView(tv[0]);
+        row.addView(tv[1]);
+        row.addView(tv[2]);
+        tlinear.addView(row);
     }
 
-    class touchbox implements View.OnTouchListener{
-        public boolean onTouch(View v, MotionEvent ev){
 
-            TextView number = (TextView) findViewById(R.id.number);
-            String abc = "";
-            abc = (String) number.getText();
-            if(ev.getAction() == 0) {
-                if (v.getId() == R.id.box1) {
-                    number.setText(abc + "1");
+    String num = "";
+    class buttonclick implements View.OnClickListener{
+        @Override
+        public void onClick(View v){
+            TextView screen = (TextView) findViewById(R.id.screen);
+            for(int i = 0;i<3;i++) {
+                if (v.getId() == i) {
+                    num += i;
                 }
-                if (v.getId() == R.id.box2) {
-                    number.setText(abc + "2");
-                }
-                if (v.getId() == R.id.box3) {
-                    number.setText(abc + "3");
-                }
-                if (v.getId() == R.id.box4) {
-                    number.setText(abc + "4");
-                }if (v.getId() == R.id.box5) {
-                    number.setText(abc + "5");
-                }
-
-
+                screen.setText(num);
             }
-
-            // a convention to put a return
-            return true;
         }
     }
+
 }
 
 

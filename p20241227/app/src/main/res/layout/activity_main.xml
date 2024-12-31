@@ -9,212 +9,25 @@
 
 
     <LinearLayout
+        android:id="@+id/lI1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical"
-        android:gravity = "center"
-        android:id="@+id/screen"
-        >
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
+            android:id="@+id/screen"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="0"
-            android:textSize="50dp"
+            android:layout_height="100dp"
+            android:background="#595454"
             android:gravity="right"
-            android:background="#D8D5D5"
-            android:textColor="#111111"
-            android:id="@+id/number">
-        </TextView>
+            android:text="0"
+            android:textSize="80dp"
+            android:textColor="#111111"/>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="1"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box1">
-
-            </TextView>
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="2"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box2">
-
-            </TextView>
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="3"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box3">
-
-            </TextView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="4"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box4">
-
-            </TextView>
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="5"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box5">
-
-            </TextView>
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="6"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box6">
-
-            </TextView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="7"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box7">
-
-            </TextView>
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="8"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box8">
-
-            </TextView>
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="9"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box9">
-
-            </TextView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="+"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/boxplus">
-
-            </TextView>
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="0"
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/box0">
-
-            </TextView>
-
-            <TextView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="#FF9800"
-                android:layout_margin="5dp"
-                android:textSize="50dp"
-                android:text="="
-                android:gravity="center"
-                android:textColor="#111111"
-                android:id="@+id/boxequal">
-
-            </TextView>
-        </LinearLayout>
     </LinearLayout>
-
-
-
-
 
 
     <!--    <LinearLayout-->
