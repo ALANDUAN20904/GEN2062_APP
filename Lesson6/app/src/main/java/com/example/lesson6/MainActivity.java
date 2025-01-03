@@ -42,7 +42,16 @@ public class MainActivity extends AppCompatActivity {
         FrameLayout fl1 = (FrameLayout) findViewById(R.id.fl1);
         makeball yball = new makeball(this);
         yball.setAnimation(ani);
+
+        makeball yball1 = new makeball(this);
+        yball1.setX(100f);
+
+        makeball yball2 = new makeball(this);
+        yball2.setY(100f);
+
         fl1.addView(yball);
+        fl1.addView(yball1);
+        fl1.addView(yball2);
     }
 
     class makeball extends View{
