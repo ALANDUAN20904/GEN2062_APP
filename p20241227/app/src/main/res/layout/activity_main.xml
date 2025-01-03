@@ -6,23 +6,169 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000">
+        android:orientation="vertical"
+        android:gravity="center">
 
-        <WebView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/wv1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
 
-        </WebView>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="50"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="45"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="40"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="35"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="45"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="40"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="35"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="30"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="40"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="35"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="30"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="25"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="35"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="30"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="25"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:background="#00BCD4"
+                android:text="20"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_margin="5px"/>
+        </LinearLayout>
     </LinearLayout>
 
 
@@ -30,7 +176,8 @@
 
 
 
-    <!--    <LinearLayout-->
+
+    <!--        <LinearLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
 <!--        android:orientation="vertical"-->
@@ -51,8 +198,8 @@
 <!--        <ImageView-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
-<!--            android:src=-->
-<!--        insert pic from drawable-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--      -->
 <!--    </LinearLayout>-->
 
 
