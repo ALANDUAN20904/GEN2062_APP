@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lesson6.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.lesson6.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame15.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame15.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame3.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame3.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame30.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame30.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame7.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame7.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame11.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame11.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame37.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame37.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame18.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame18.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame23.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame23.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame0.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame0.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame34.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame34.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame26.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame26.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame14.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame14.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame27.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame27.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame6.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame6.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame2.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame2.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame9.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame9.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame20.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame20.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame33.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame33.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame5.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame5.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame28.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame28.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame32.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame32.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame17.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame17.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame36.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame36.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame10.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame10.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame24.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame24.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame21.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame21.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame39.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame39.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame40.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame40.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame13.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame13.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame12.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame12.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame16.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame16.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame35.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame35.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame8.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame8.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame31.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame31.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame29.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame29.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame1.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame1.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame41.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame41.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_animation.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame38.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame38.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame25.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame25.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame22.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame22.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame4.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame4.png"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-debug-31:\\drawable_frame19.png.flat",
+        "source": "C:\\Users\\dtc20\\.gradle\\daemon\\8.9\\com.example.lesson6.app-main-33:\\drawable\\frame19.png"
+    }
+]
