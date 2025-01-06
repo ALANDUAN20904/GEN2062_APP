@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id fl1
+id ll2
+id main
+id tv1
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme._20250103
+style Theme._20250103
+xml backup_rules
+xml data_extraction_rules
